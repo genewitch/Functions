@@ -1,3 +1,6 @@
+    ''' this only calcuates for the line segments you specify!
+    
+    
     Public Shared Function DoLinesIntersect(ByVal L1 As Line, ByVal L2 As Line, ByRef ptIntersection As PointF) As Boolean
         ' Denominator for ua and ub are the same, so store this calculation
         Dim d As Double = (L2.Y2 - L2.Y1) * (L1.X2 - L1.X1) - (L2.X2 - L2.X1) * (L1.Y2 - L1.Y1)
